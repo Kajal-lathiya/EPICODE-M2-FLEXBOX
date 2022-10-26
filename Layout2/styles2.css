@@ -1,0 +1,36 @@
+#container {
+  display: flex;
+  min-height: 100vh;
+}
+nav {
+  display: flex;
+  flex: 1;
+  background-color: #c22177;
+}
+#main-layout {
+  display: flex;
+  flex: 9;
+  flex-direction: column;
+}
+header {
+  display: flex;
+  background-color: #111023;
+  flex: 1;
+}
+#content {
+  display: flex;
+  flex: 4;
+}
+article {
+  background-color: white;
+  flex: 8;
+}
+aside {
+  background-color: #320388;
+  flex: 2;
+}
+footer {
+  display: flex;
+  background-color: #111023;
+  flex: 1;
+}

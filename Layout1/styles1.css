@@ -1,0 +1,32 @@
+#container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+/* header {
+  background-color: #111023;
+  flex: 1;
+} */
+#main {
+  display: flex;
+  flex: 4;
+}
+/* footer {
+  background-color: #111023;
+  flex: 1;
+} */
+article {
+  display: flex;
+  flex: 6;
+  background-color: white;
+}
+aside {
+  display: flex;
+  flex: 2;
+  background-color: #320388;
+}
+nav {
+  display: flex;
+  flex: 2;
+  background-color: #c22177;
+}

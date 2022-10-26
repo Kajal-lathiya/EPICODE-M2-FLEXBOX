@@ -1,0 +1,41 @@
+#container {
+  display: flex;
+  min-height: 100vh;
+}
+nav {
+  flex: 1;
+  background-color: #c22177;
+}
+#main {
+  display: flex;
+  flex-direction: column;
+  flex: 9;
+}
+header {
+  display: flex;
+  background-color: #111023;
+  flex: 2;
+}
+#content {
+  display: flex;
+  flex: 8;
+}
+#sub-content {
+  display: flex;
+  flex: 7;
+  flex-direction: column;
+}
+article {
+  display: flex;
+  background-color: white;
+  flex: 6;
+}
+footer {
+  display: flex;
+  background-color: #111023;
+  flex: 2;
+}
+aside {
+  background-color: #320388;
+  flex: 1;
+}
