@@ -3,18 +3,18 @@
   min-height: 100vh;
   flex-direction: column;
 }
-/* header {
+header {
   background-color: #111023;
   flex: 1;
-} */
+}
 #main {
   display: flex;
   flex: 4;
 }
-/* footer {
+footer {
   background-color: #111023;
   flex: 1;
-} */
+}
 article {
   display: flex;
   flex: 6;
